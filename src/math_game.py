@@ -113,7 +113,7 @@ class Questions:
 		input_int = False
 		while v == False:
 
-			one = random.randint(5, 10)
+			one = random.randint(5, 20)
 			two = random.randint(1, one-1)
 
 			
