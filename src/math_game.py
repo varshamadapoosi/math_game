@@ -91,7 +91,7 @@ class Driver:
 			questions_wrong_sum += score_overall[item]
 			print("For " + operation_words[item] + ", you missed " + str(score_overall[item]) + " questions out of " + str(self.detailed_rounds[item] * 10))
 		
-		print("In total, you got " + str(questions_wrong_sum) + " out of " + str(rounds * 10)+ " total questions")
+		print("In total, you got " + str(questions_wrong_sum) + " out of " + str(rounds * 10)+ " total questions wrong")
 		return
 
 
